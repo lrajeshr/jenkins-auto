@@ -1,6 +1,7 @@
 import pytest
 
 # smtpserver = "smtp.gmail.com"
+#keep rocking. sky is the limit.
 
 def test_ehlo(smtp_connection):
     response, msg = smtp_connection.ehlo()
